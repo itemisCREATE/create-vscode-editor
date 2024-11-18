@@ -1,3 +1,5 @@
+> Note: The extension is not published, yet!
+
 # itemis CREATE for Visual Studio Code
 
 With itemis CREATE, you can easily create complex systems in a visual way. Simulate and test your system’s behavior already while you are modeling. Code generators translate your state machine into high-quality source code for different target platforms.
@@ -19,17 +21,5 @@ Handwritten code needs to be continuously quality assured by time-consuming code
 With itemis CREATE, this is no longer needed. Your state machine is automatically translated into high-quality source code for different target platforms – no matter if it’s C, C++, Java, or Python. And because state machines are platform-independent, your system is future-proof even if your underlying technology changes.
 
 ![Code Generation](media/readme/code-generation.png)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-## Release Notes
-
-### 0.7.0
-
-Initial release of itemis CREATE
 
 **Enjoy!**
