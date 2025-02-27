@@ -4,6 +4,18 @@ With itemis CREATE , you can easily create complex systems in a visual way. Simu
 
 Previously available exclusively as an Eclipse-based tool, itemis CREATE now comes as a modern and streamlined Visual Studio Code extension, bringing the power of state machine modeling and simulation to a broader developer audience.
 
+## ⚠️ Extension in Development
+
+This extension is currently a work in progress. Some features may be missing, and bugs are expected. We appreciate your patience and feedback as we continue to improve it! If you encounter any issues or have feature requests, feel free to open a ticket on our [issue tracker](https://github.com/itemisCREATE/create-vscode-editor/issues).
+
+The following features are not yet implemented:
+
+- **Multi-State Machines:** Importing other state machines is not yet supported.
+- **Domains:** The C/C++ domain and others are not yet available, so import statements will not work.
+- **Subdiagrams:** Creating subdiagrams is not supported.
+- **Code Generation:** Output folders can be configured but are not yet taken into account.
+- **Import & Export:** Exporting or importing existing statecharts is not possible. However, models from the web version with an `.scm` file extension can be used.
+
 ## Editing & Validation
 
 Designing a robust and well-structured system starts with creating a clear and accurate model. The Editing & Validation capabilities of itemis CREATE make this process both intuitive and error-resistant.
@@ -181,49 +193,56 @@ The following settings allow you to customize the behavior of the itemis CREATE 
 
 ### Show Grid
 
-- **ID**: `itemis.create.showGrid`
+- **ID**: `itemis-create.showGrid`
 - **Type**: Boolean
 - **Default**: `false`
 - **Description**: This setting determines whether the grid will be displayed on the drawing canvas. Enabling it helps in aligning objects more easily by providing a visual reference.
 
 ### Grid Size
 
-- **ID**: `itemis.create.gridSize`
+- **ID**: `itemis-create.gridSize`
 - **Type**: Number
 - **Default**: `10`
 - **Description**: The grid size defines the spacing between grid lines on the drawing canvas. A smaller value will provide a finer grid, while a larger value will result in a coarser grid.
 
 ### Enable Snaplines
 
-- **ID**: `itemis.create.enableSnaplines`
+- **ID**: `itemis-create.enableSnaplines`
 - **Type**: Boolean
 - **Default**: `true`
 - **Description**: When enabled, snaplines will appear on the drawing canvas, helping you align objects with precision. This can be useful for organizing components or ensuring consistent spacing.
 
+### Documentation
+
+- **ID**: `itemis-create.showDocumentation`
+- **Type**: Boolean
+- **Default**: `false`
+- **Description**: When enabled, the documentation of states and transitions will be shown.
+
 ### Show Priorities
 
-- **ID**: `itemis.create.showPriorities`
+- **ID**: `itemis-create.showPriorities`
 - **Type**: Boolean
 - **Default**: `true`
 - **Description**: This setting controls whether priority labels are shown on transitions and regions. Enabling it makes it easier to see and manage priorities in state machines.
 
 ### Storage Location
 
-- **ID**: `itemis.create.examples.storageLocation`
+- **ID**: `itemis-create.examples.storageLocation`
 - **Type**: String
 - **Default**: `create_vscode_examples`
 - **Description**: Specifies the local path where the cloned examples repository will be stored. Relative paths are appended to the user's home directory, while absolute paths are used as specified.
 
 ### Remote Location
 
-- **ID**: `itemis.create.examples.remoteLocation`
+- **ID**: `itemis-create.examples.remoteLocation`
 - **Type**: String
 - **Default**: `https://github.com/itemisCREATE/examples`
 - **Description**: This setting defines the remote URL where the examples repository is hosted. The default location points to the GitHub repository for itemis CREATE examples.
 
 ### Remote Branch
 
-- **ID**: `itemis.create.examples.remoteBranch`
+- **ID**: `itemis-create.examples.remoteBranch`
 - **Type**: String
 - **Default**: `vscode-release5`
 - **Description**: The remote branch setting specifies which branch of the remote repository to use. The default branch is `vscode-release5`, but it can be changed to any valid branch.
