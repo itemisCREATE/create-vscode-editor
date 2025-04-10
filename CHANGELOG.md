@@ -1,5 +1,10 @@
 ### Changelog
 
+## [1.0.1]
+
+- Fixed marketplace links
+- Added categories and keywords
+
 ## [1.0.0] - Initial Release
 
 This is the first release of the itemis CREATE extension for Visual Studio Code, which brings the powerful state machine modeling tool, previously available only as an Eclipse-based solution, to the modern and streamlined VS Code environment. The release includes the following key features:
