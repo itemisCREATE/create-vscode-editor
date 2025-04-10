@@ -6,15 +6,15 @@ Previously available exclusively as an Eclipse-based tool, itemis CREATE now com
 
 ## ⚠️ Extension in Development
 
-This extension is currently a work in progress. Some features may be missing, and bugs are expected. We appreciate your patience and feedback as we continue to improve it! If you encounter any issues or have feature requests, feel free to open a ticket on our [issue tracker](https://github.com/itemisCREATE/create-vscode-editor/issues).
+This extension is currently a work in progress. Some features may be missing. We appreciate your patience and feedback as we continue to improve it! If you encounter any issues or have feature requests, feel free to open a ticket on our [issue tracker](https://github.com/itemisCREATE/create-vscode-editor/issues).
 
 The following features are not yet implemented:
 
 - **Multi-State Machines:** Importing other state machines is not yet supported.
 - **Domains:** The C/C++ domain and others are not yet available, so import statements will not work.
 - **Subdiagrams:** Creating subdiagrams is not supported.
-- **Code Generation:** Output folders can be configured but are not yet taken into account.
 - **Import & Export:** Exporting or importing existing statecharts is not possible. However, models from the web version with an `.scm` file extension can be used.
+- **SCTUnit:** Creating tests with SCTUnit is not supported.
 
 ## Editing & Validation
 
@@ -186,6 +186,10 @@ These resources provide comprehensive guidance to enhance your experience and ex
 For detailed information on the latest updates and changes to itemis CREATE, please refer to the official release notes: [itemis CREATE Release Notes](https://www.itemis.com/en/products/itemis-create/documentation/user-guide/release_notes?hsLang=en).
 
 For VS Code-specific release notes, including updates and bug fixes related to the extension, please check the [Changelog](CHANGELOG.md).
+
+## Licenses and Pricing
+
+This extension requires an active [itemis CREATE license](https://www.itemis.com/en/products/itemis-create/licenses/). It uses a cloud-based service, which requires an account and a valid subscription. A test license is automatically active for 30 days.
 
 ## Settings
 
