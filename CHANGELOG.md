@@ -1,8 +1,21 @@
-### Changelog
+# Changelog
+
+## [1.0.3]
+
+- Fixed failed simulations running in endless loop
+- Added hint for documentation mode in editor
+- Added user notification for the remaining days of the subscription
+- Removed active keyboard shortcuts in read-only mode
+- Removed matching parantheses highlighter in editor
+- Fixed selecting text for transitions
+- Fixed simulation for operations with uppercase
+
+## [1.0.2]
+
+- Fixed marketplace links
 
 ## [1.0.1]
 
-- Fixed marketplace links
 - Added categories and keywords
 
 ## [1.0.0] - Initial Release
