@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.5]
+
+- Disable Subdiagrams
+
+## [1.0.4]
+
+- Changed keyword from statemachine to state machine
+- Updated frontend library
+
 ## [1.0.3]
 
 - Fixed failed simulations running in endless loop
