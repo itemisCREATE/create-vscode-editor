@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6]
+
+- Added `Create Simulation Launch` to context menu
+- Fixed problems with undo/redo
+- Fixed several editor bugs
+- Fixed using correct defaults
+
 ## [1.0.5]
 
 - Disable Subdiagrams
@@ -14,6 +21,7 @@
 - Fixed failed simulations running in endless loop
 - Added hint for documentation mode in editor
 - Added user notification for the remaining days of the subscription
+- Fixed using valueof in assignments
 - Removed active keyboard shortcuts in read-only mode
 - Removed matching parantheses highlighter in editor
 - Fixed selecting text for transitions
