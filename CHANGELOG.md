@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.1]
+
+- Updated frontend library
+
 ## [1.1.0]
 
 - Added `Create Simulation Launch` to context menu
