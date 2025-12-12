@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0]
+
+- Added `Create Simulation Launch` to context menu
+- Fixed problems with undo/redo
+- Fixed several editor bugs
+- Fixed using correct defaults
+- Reworked region layouting
+
+## [1.0.7]
+
+- Rollback to 1.0.5
+
 ## [1.0.6]
 
 - Added `Create Simulation Launch` to context menu
