@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.2]
+
+- Fixed diagnostics not showing up in the problems view
+- Fixed diagnostics not being removed from the problems view when deleting a statechart
+- Reworked documentation view
+- Fixed missing simulation and settings buttons when initially opening a statechart
+- Added validation for code generation
+- Updated frontend library
+  - Added minimum size for notes
+  - Added documentation view for each model element
+  - Fixed whitespace issues in region names
+  - Fixed selecting entry properties when clicking on a label
+  - Fixed unembedding elements when moving a selection
+  - Fixed multiple markers on regions
+
 ## [1.1.1]
 
 - Updated frontend library
